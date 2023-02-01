@@ -12,7 +12,7 @@ def viewallsongs():
     root = Tk()
     root.title("View All Songs")
     root.minsize(width=40, height=4)
-    root.geometry("1000x400")
+    root.geometry("1200x400")
 
 
     tree = ttk.Treeview(root, column=("c1", "c2", "c3", "c4", "c5", "c6"), show='headings')
