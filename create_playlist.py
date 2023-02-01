@@ -50,7 +50,7 @@ def create():
             root1 = Toplevel()
             root1.title("View All Songs")
             root1.minsize(width=40, height=4)
-            root1.geometry("1000x400")
+            root1.geometry("1200x400")
             conn = sqlite3.connect('song_book.db')
             c = conn.cursor()
 
@@ -93,7 +93,7 @@ def create():
             root1 = Toplevel()
             root1.title("View All Songs")
             root1.minsize(width=40, height=4)
-            root1.geometry("1000x400")
+            root1.geometry("1200x400")
             conn = sqlite3.connect('song_book.db')
             c = conn.cursor()
 
@@ -136,7 +136,7 @@ def create():
             root1 = Toplevel()
             root1.title("View All Songs")
             root1.minsize(width=40, height=4)
-            root1.geometry("1000x400")
+            root1.geometry("1200x400")
             conn = sqlite3.connect('song_book.db')
             c = conn.cursor()
 
@@ -179,7 +179,7 @@ def create():
             root1 = Toplevel()
             root1.title("View All Songs")
             root1.minsize(width=40, height=4)
-            root1.geometry("1000x400")
+            root1.geometry("1200x400")
             conn = sqlite3.connect('song_book.db')
             c = conn.cursor()
 
